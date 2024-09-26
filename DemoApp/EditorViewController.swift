@@ -1,4 +1,6 @@
-import AppKit
+//import AppKit
+import UIKit
+
 import STTextView
 
 import STPluginNeon

@@ -1,4 +1,6 @@
-import Cocoa
+//import Cocoa
+import UIKit
+
 import STTextView
 
 import Neon

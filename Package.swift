@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "STTextView-Plugin-Neon",
-    platforms: [.macOS(.v12)],
+    platforms: [.iOS(.v16)],
     products: [
         .library(
             name: "STTextView-Plugin-Neon",

@@ -1,9 +1,11 @@
 
-import Cocoa
+//import Cocoa
+import UIKit
 
 // https://github.com/thii/SwiftHEXColors
 
-extension NSColor {
+//extension NSColor {
+extension UIColor {
 
     private convenience init?(hex3: Int64, alpha: Float) {
         self.init(red:   CGFloat( ((hex3 & 0xF00) >> 8).duplicate4bits() ) / 255.0,
